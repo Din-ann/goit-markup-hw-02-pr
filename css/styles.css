@@ -15,6 +15,7 @@
 body {
   font-family: "Roboto", sans-serif;
   background-color: #fff;
+  color: var(--slate, #434455);
 }
 
 .list {
@@ -27,22 +28,18 @@ body {
 
 /*--------------------HEADER------------------*/
 
-.header {
-  border-bottom: 1px solid var(--cornflower, #e7e9fc);
-}
-
 .header-logo {
-  color: var(--navyblue, #2e2f42);
+  color: var(--iris, #4d5ae5);
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 800;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
 .header-logo-color {
-  color: var(--iris, #4d5ae5);
+  color: var(--navyblue, #2e2f42);
 }
 
 .header-menu-link {
@@ -54,13 +51,14 @@ body {
 }
 
 .header-menu-item .header-menu-link:hover,
-.header-menu-item .header-menu-link:active {
+.header-menu-item .header-menu-link:focus {
   color: var(--ocean, #404bbf);
 }
 
 .address-link {
   color: var(--slate, #434455);
   font-size: 16px;
+  font-style: normal;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
@@ -70,25 +68,51 @@ body {
   color: var(--ocean, #404bbf);
 }
 
+/*--------------------Portfolio main------------------*/
+
+.images-title {
+  color: var(--navyblue, #2e2f42);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.images-text {
+  color: var(--slate, #434455);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
 /*--------------------HERO------------------*/
 
 .list-button {
   cursor: pointer;
   color: var(--iris, #4d5ae5);
+  background-color: var(--cloud, #f4f4fd);
   text-align: center;
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
 }
 
+.list-item .list-button:hover,
+.list-item .list-button:focus {
+  color: var(--white, #ffffff);
+  background-color: var(--ocean, #404bbf);
+}
+
 .hero {
   background-color: #2e2f42;
 }
 
-.hero .hero-button:hover {
-  color: var(--ocean, #404bbf);
+.hero .hero-button:hover,
+.hero .hero-button:focus {
+  background-color: var(--ocean, #404bbf);
 }
 
 .hero-title {
@@ -113,7 +137,6 @@ body {
 }
 
 .visually-hidden {
-  position: absolute;
   width: 1px;
   height: 1px;
   margin: -1px;
@@ -200,21 +223,21 @@ body {
 }
 
 .footer-logo {
-  color: var(--cloud, #f4f4fd);
+  color: var(--iris, #4d5ae5);
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 800;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
 .footer-logo-color {
-  color: var(--iris, #4d5ae5);
+  color: var(--cloud, #f4f4fd);
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 800;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
