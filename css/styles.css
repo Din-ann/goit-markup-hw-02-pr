@@ -55,10 +55,6 @@ body {
   color: var(--ocean, #404bbf);
 }
 
-.address {
-  font-style: normal;
-}
-
 .address-link {
   color: var(--slate, #434455);
   font-size: 16px;
@@ -84,7 +80,6 @@ body {
 .images-text {
   color: var(--slate, #434455);
   font-size: 16px;
-  font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
@@ -122,7 +117,6 @@ body {
   color: var(--white, #fff);
   text-align: center;
   font-size: 56px;
-  font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
 }
@@ -159,7 +153,6 @@ body {
   color: var(--navyblue, #2e2f42);
   text-align: center;
   font-size: 36px;
-  font-weight: 700;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
