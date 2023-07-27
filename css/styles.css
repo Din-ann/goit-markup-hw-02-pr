@@ -55,6 +55,10 @@ body {
   color: var(--ocean, #404bbf);
 }
 
+.address {
+  font-style: normal;
+}
+
 .address-link {
   color: var(--slate, #434455);
   font-size: 16px;
