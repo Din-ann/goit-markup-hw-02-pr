@@ -34,6 +34,11 @@ body {
 
 /*--------------------HEADER------------------*/
 
+.header {
+  padding-top: 25.5px;
+  padding-bottom: 25.5px;
+}
+
 .header-logo {
   color: var(--iris, #4d5ae5);
   font-family: "Raleway", sans-serif;
@@ -85,6 +90,7 @@ body {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 16px;
 }
 
 .images-text {
@@ -92,9 +98,14 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding-bottom: 32px;
 }
 
 /*--------------------HERO------------------*/
+
+.buttons {
+  padding: 96px 427px 72px 427px;
+}
 
 .list-button {
   cursor: pointer;
@@ -116,6 +127,8 @@ body {
 
 .hero {
   background-color: #2e2f42;
+  padding: 188px 472px 292px 472px;
+  margin-bottom: 120px;
 }
 
 .hero .hero-button:hover,
@@ -129,6 +142,9 @@ body {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  max-width: 496px;
+  max-height: 120px;
+  margin-bottom: 48px;
 }
 .hero-button {
   color: var(--white, #fff);
@@ -143,12 +159,24 @@ body {
 
 /*--------------------FEATURE------------------*/
 
+.container {
+  width: 100%;
+  max-width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+.feature {
+}
+
 .feature-subtitle {
   color: var(--navyblue, #2e2f42);
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 .feature-item-text {
   color: var(--slate, #434455);
@@ -157,7 +185,17 @@ body {
   letter-spacing: 0.02em;
 }
 
+/* --------------------section-buttons----------------- */
+
+.link {
+  margin-bottom: 32px;
+}
+
 /*--------------------What are we doing------------------*/
+
+.what-section {
+  padding-bottom: 120px;
+}
 
 .section-title {
   color: var(--navyblue, #2e2f42);
@@ -166,25 +204,32 @@ body {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  padding-top: 120px;
+  padding-bottom: 72px;
 }
 
 .what-image {
-  background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+  background: lightgray 50% / cover no-repeat;
+}
+
+.what-list {
+  padding: 72px;
 }
 
 /*--------------------Our team------------------*/
 
 .our-team {
   background: var(--cloud, #f4f4fd);
+  padding-bottom: 120px;
 }
 
 .our-team-item {
   background: var(--white, #fff);
+  margin-bottom: 32px;
 }
 
 .our-team-image {
-  background: url(<path-to-image>),
-    lightgray -97.034px -0.927px / 181.897% 251.37% no-repeat;
+  background: lightgray -97.034px -0.927px / 181.897% 251.37% no-repeat;
 }
 
 .our-team-subtitle {
@@ -193,6 +238,7 @@ body {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 
 .our-team-text {
@@ -200,12 +246,14 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding-bottom: 32px;
 }
 
 /*--------------------Footer------------------*/
 
 .footer {
   background: var(--navyblue, #2e2f42);
+  padding: 140px 1020px 100px 156px;
 }
 
 .footer-logo {
@@ -216,6 +264,8 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin: 0 auto;
+  margin-bottom: 17.5px;
 }
 
 .footer-logo-color {
@@ -233,4 +283,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  max-width: 264px;
+  max-height: 72px;
+  margin: 0 auto;
 }
