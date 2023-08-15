@@ -4,20 +4,26 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Web Studio</title>
-
+    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <!-- Normalize -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+    />
 
+    <!-- Custom styles -->
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
 
   <body>
     <header class="header">
-      <div class="container">
+      <div class="container header-container">
         <nav class="header-navigation">
           <a class="header-logo link" href="./index.html"
             >Web<span class="header-logo-color">Studio</span>
@@ -64,7 +70,7 @@
 
       <section class="feature">
         <div class="container">
-          <h2 hidden>Features</h2>
+          <h2 class="visually-hidden">Features</h2>
           <ul class="feature-list list">
             <li class="feature-item">
               <h3 class="feature-subtitle">Strategy</h3>
@@ -141,8 +147,10 @@
                 alt="Mark Guerrero"
                 width="264"
               />
-              <h3 class="our-team-subtitle">Mark Guerrero</h3>
-              <p class="our-team-text">Product Designer</p>
+              <div class="description">
+                <h3 class="our-team-subtitle">Mark Guerrero</h3>
+                <p class="our-team-text">Product Designer</p>
+              </div>
             </li>
             <li class="our-team-item">
               <img
@@ -151,8 +159,10 @@
                 alt="Tom Ford"
                 width="264"
               />
-              <h3 class="our-team-subtitle">Tom Ford</h3>
-              <p class="our-team-text">Frontend Developer</p>
+              <div class="description">
+                <h3 class="our-team-subtitle">Tom Ford</h3>
+                <p class="our-team-text">Frontend Developer</p>
+              </div>
             </li>
             <li class="our-team-item">
               <img
@@ -161,8 +171,10 @@
                 alt="Camila Garcia"
                 width="264"
               />
-              <h3 class="our-team-subtitle">Camila Garcia</h3>
-              <p class="our-team-text">Marketing</p>
+              <div class="description">
+                <h3 class="our-team-subtitle">Camila Garcia</h3>
+                <p class="our-team-text">Marketing</p>
+              </div>
             </li>
             <li class="our-team-item">
               <img
@@ -171,8 +183,10 @@
                 alt="Daniel Wilson"
                 width="264"
               />
-              <h3 class="our-team-subtitle">Daniel Wilson</h3>
-              <p class="our-team-text">UI Designer</p>
+              <div class="description">
+                <h3 class="our-team-subtitle">Daniel Wilson</h3>
+                <p class="our-team-text">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
