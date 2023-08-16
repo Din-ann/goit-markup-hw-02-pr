@@ -322,7 +322,7 @@ body {
 
 .footer {
   background: var(--navyblue, #2e2f42);
-  padding: 120px 0;
+  padding: 100px 0;
 }
 
 .footer-logo {
@@ -334,7 +334,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin: 0 auto;
-  margin-bottom: 17.5px;
+  margin-bottom: 16px;
   display: inline-block;
 }
 
